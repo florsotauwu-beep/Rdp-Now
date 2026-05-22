@@ -5,7 +5,7 @@ on:
 jobs:
   deployment:
     runs-on: windows-latest
-    timeout-minutes: 360 cancel-timeout-minutes: true # Dikunci ke 3 Jam agar akun lebih awet
+    timeout-minutes: 360 # Dikunci ke 3 Jam agar akun lebih awet
 
     steps:
       - name: 1. System Preparation
